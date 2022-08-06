@@ -57,7 +57,7 @@ def parse_args():
     )
 
     parser.add_argument_group('required arguments') \
-        .add_argument('--port', type=int, help='port to bind to')
+        .add_argument('--port', type=int, help='port to bind to', required=True)
 
     parser.add_argument('--host', type=str, help='host to bind to', default='localhost')
     parser.add_argument('--backlog', type=int, help='backlog for server socket', default=100)
