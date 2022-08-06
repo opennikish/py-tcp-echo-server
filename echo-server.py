@@ -19,7 +19,7 @@ def create_handler(buff_size, log):
 
                 # Uncomment if you need http response
                 # Note: We don't close connection in such case (be sure that your clients sends keep-alive header)
-                writer.write(f"HTTP/1.1 200 OK\r\nContent-Length:0\r\n\r\n".encode())
+                # writer.write(f"HTTP/1.1 200 OK\r\nContent-Length:0\r\n\r\n".encode())
 
                 await writer.drain()
             except ConnectionResetError:

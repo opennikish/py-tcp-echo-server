@@ -26,3 +26,10 @@ optional arguments:
   --buffer BUFFER    read buffer size (default: 8192)
   --silent           do not log anything during handling connections (default: False)
 ```
+
+Send something:
+```
+nc -v localhost 8888
+hello
+hello
+```
