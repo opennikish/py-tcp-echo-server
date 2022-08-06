@@ -18,7 +18,7 @@ def create_handler(buff_size, log):
                 writer.write(chunk)
 
                 # Uncomment if you need http response
-                # Note: We don't close connection in such case (be sure that your clients sends keep-alive header)
+                # Note: We don't close connection in such case so be sure that your clients sends keep-alive header
                 # writer.write(f"HTTP/1.1 200 OK\r\nContent-Length:0\r\n\r\n".encode())
 
                 await writer.drain()
