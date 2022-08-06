@@ -1,6 +1,6 @@
 ### Asynchronous TCP echo-server
 
-Asynchronous TCP echo-server built on top of the python asyncio.
+Asynchronous TCP echo-server built on top of the python asyncio. Does not have any dependencies.
 
 #### Usage
 
