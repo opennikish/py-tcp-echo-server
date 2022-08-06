@@ -72,7 +72,7 @@ def main():
     try:
         asyncio.run(start_server(args))
     except KeyboardInterrupt:
-        print('\nBye!')
+        print('\nShutting down...')
 
 
 if __name__ == '__main__':
