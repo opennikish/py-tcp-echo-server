@@ -4,6 +4,11 @@ Asynchronous TCP echo-server built on top of the python asyncio.
 
 #### Usage
 
+Download:
+```
+curl -O https://raw.githubusercontent.com/opennikish/py-tcp-echo-server/main/echo-server.py
+```
+
 Run:
 ```
 python echo-server.py --port 8888
