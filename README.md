@@ -2,7 +2,7 @@
 
 Asynchronous TCP echo-server built on top of the python asyncio. Does not have any dependencies.
 
-> Note: Use can use `ncat -e /bin/cat -k -l 8888` but if it's not available for you by some reason, or you want to add some more functionality (by modifying this source code) you can use this one.
+> Note: You can use `ncat -e /bin/cat -k -l 8888` but if it's not available for you by some reason, or you want to add some more functionality (by modifying this source code) you can use this one.
 
 #### Usage
 
